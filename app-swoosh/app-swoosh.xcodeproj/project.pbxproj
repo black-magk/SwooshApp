@@ -14,6 +14,7 @@
 		F72815EE204F3CCB0043E5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72815EC204F3CCB0043E5FA /* LaunchScreen.storyboard */; };
 		F72815F9204F3CCB0043E5FA /* app_swooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72815F8204F3CCB0043E5FA /* app_swooshTests.swift */; };
 		F7281604204F3CCB0043E5FA /* app_swooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7281603204F3CCB0043E5FA /* app_swooshUITests.swift */; };
+		F7281614204F446E0043E5FA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7281613204F446E0043E5FA /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F72815FF204F3CCB0043E5FA /* app-swooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-swooshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7281603204F3CCB0043E5FA /* app_swooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_swooshUITests.swift; sourceTree = "<group>"; };
 		F7281605204F3CCB0043E5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7281613204F446E0043E5FA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F72815E2204F3CCB0043E5FA /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				F7281612204F43620043E5FA /* Views */,
 				F72815E3204F3CCB0043E5FA /* AppDelegate.swift */,
 				F72815E5204F3CCB0043E5FA /* ViewController.swift */,
 				F72815E7204F3CCB0043E5FA /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				F7281605204F3CCB0043E5FA /* Info.plist */,
 			);
 			path = "app-swooshUITests";
+			sourceTree = "<group>";
+		};
+		F7281612204F43620043E5FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7281613204F446E0043E5FA /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				F72815E6204F3CCB0043E5FA /* ViewController.swift in Sources */,
 				F72815E4204F3CCB0043E5FA /* AppDelegate.swift in Sources */,
+				F7281614204F446E0043E5FA /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
