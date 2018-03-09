@@ -17,6 +17,8 @@
 		F7281614204F446E0043E5FA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7281613204F446E0043E5FA /* BorderButton.swift */; };
 		F7A8E3CA20533127008505ED /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E3C920533127008505ED /* LeagueVC.swift */; };
 		F7A8E3CC2053313C008505ED /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E3CB2053313C008505ED /* SkillVC.swift */; };
+		F7A8E3CE20533A84008505ED /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E3CD20533A84008505ED /* Player.swift */; };
+		F7A8E3D1205345FD008505ED /* FinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E3D0205345FD008505ED /* FinalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F7281613204F446E0043E5FA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		F7A8E3C920533127008505ED /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		F7A8E3CB2053313C008505ED /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		F7A8E3CD20533A84008505ED /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F7A8E3D0205345FD008505ED /* FinalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 				F72815E5204F3CCB0043E5FA /* WelcomeVC.swift */,
 				F7A8E3C920533127008505ED /* LeagueVC.swift */,
 				F7A8E3CB2053313C008505ED /* SkillVC.swift */,
+				F7A8E3D0205345FD008505ED /* FinalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 		F7A8E3C820532FEA008505ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7A8E3CD20533A84008505ED /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,10 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A8E3D1205345FD008505ED /* FinalVC.swift in Sources */,
 				F72815E6204F3CCB0043E5FA /* WelcomeVC.swift in Sources */,
 				F7A8E3CA20533127008505ED /* LeagueVC.swift in Sources */,
 				F72815E4204F3CCB0043E5FA /* AppDelegate.swift in Sources */,
 				F7A8E3CC2053313C008505ED /* SkillVC.swift in Sources */,
+				F7A8E3CE20533A84008505ED /* Player.swift in Sources */,
 				F7281614204F446E0043E5FA /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
