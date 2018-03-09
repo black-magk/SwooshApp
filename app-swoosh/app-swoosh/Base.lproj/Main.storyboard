@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,19 +92,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="backgroundImage" destination="VX0-5U-FSY" id="hHq-Vh-Md6"/>
-                        <outlet property="swoosh" destination="g2x-vN-UJL" id="Cpv-Dj-i4Z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-417" y="-96"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="j4J-Ld-9bJ">
             <objects>
-                <viewController id="ITO-Yy-quk" sceneMemberID="viewController">
+                <viewController id="ITO-Yy-quk" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q2T-KC-LRc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,6 +177,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.88562922290000001" green="0.97231307359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="OnNextTap:" destination="ITO-Yy-quk" eventType="touchUpInside" id="Huw-z0-qnf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwk-OU-QTM">
                                 <rect key="frame" x="0.0" y="30" width="83" height="24"/>
@@ -214,16 +213,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sN7-BQ-f04"/>
                     </view>
+                    <connections>
+                        <segue destination="rZG-JB-NBh" kind="show" identifier="skillVCSegue" id="JYC-zq-hcs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Nb-8P-o3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="joy-Df-KHU" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="298.55072463768118" y="-97.010869565217405"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="yfo-X5-8yQ">
             <objects>
-                <viewController id="rZG-JB-NBh" sceneMemberID="viewController">
+                <viewController id="rZG-JB-NBh" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NKJ-AI-cLJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
